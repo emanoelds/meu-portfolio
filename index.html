@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Emanoel.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Meu - Portfólio</title>
+</head>
+
+<body>
+    <header class="bg-black">
+        <p class="text-light text-center p-2 fw-semibold">@2023</p>
+    </header>
+
+    <nav class="navbar navbar-expand-md ">
+        <div class="container">
+            <a class="d-flex justify-content-center w-25 " href="index.html">
+                <img class="w-75" src="img/Emanoel.png" alt="Emanoel">
+            </a>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto fw-semibold gap-3 d-flex align-items-center">
+                    <li class="nav-item">
+                        <a class="btn btn-dark rounded-5" href="#">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-dark rounded-5" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-dark rounded-5" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="d-flex flex-column textoPrinc">
+            <div>
+                <h1 class="bg-black rounded-5 text-white text-center p-2">Olá, Eu sou Emanoel!</h1>
+                <p class="text-center lead fw-medium">
+                    Desenvolvedor Full Stack
+                </p>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <div>
+                    <img src="img/stack/html5.png" alt="HTML5" width="50">
+                    <img src="img/stack/css3.png" alt="CSS3" width="55">
+                    <img src="img/stack/js.png" alt="JavaScript" width="49">
+                    <img src="img/stack/php.png" alt="PHP" width="60">
+                    <img src="img/stack/mysql.png" alt="MySQL" width="90">
+                    <img src="img/stack/bootstrap.png" alt="Bootstrap" width="70">
+                </div>
+            </div>
+        </section>
+
+        <section class="principal" id="projetos">
+            <div class="d-flex justify-content-center">
+                <h2 class="fw-bold">Meus Projetos</h2>
+            </div>
+
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <a data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></a>
+                    <a data-bs-target="#carouselId" data-bs-slide-to="1"></a>
+                    <a data-bs-target="#carouselId" data-bs-slide-to="2"></a>
+                </div>
+
+                <div class="carousel-inner rounded-4">
+                    <div class="carousel-item active">
+                        <img src="img/Finans.png" class="w-100 d-block" alt="Projeto Finans">
+                        <div class="carousel-caption bg-custom d-none d-md-block">
+                            <h3 class="text-light">Projeto Finans</h3>
+                            <p class="text-light">Layout criado com base em sistemas financeiros.</p>
+                            <a class="btn btn-warning" href="page/finans/index.html">Acesse aqui!</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Orcamento.png" class="w-100 d-block" alt="Projeto Orçamento">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="text-body-secondary">Projeto Orçamentos</h3>
+                            <p class="text-body-secondary">Site criado para adicionar e excluir despesas.</p>
+                            <a class="btn btn-primary" href="page/App Consulta de Despesas/index.html">Acesse aqui!</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Spotify.png" class="w-100 d-block" alt="Projeto Spotify">
+                        <div class="carousel-caption bg-custom d-none d-md-block">
+                            <h3 class="text-light">Projeto Spotify</h3>
+                            <p class="text-light">Projeto réplica para site de músicas.</p>
+                            <a class="btn btn-custom" href="page/Projeto Spotify/index.html">Acesse aqui!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev button1" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next button2" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Proximo</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer text-white">
+        <p>Sistemas para Internet - Unicesumar</p>
+    </footer>
+
+    
+    <script src="https://kit.fontawesome.com/408ad07b0a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

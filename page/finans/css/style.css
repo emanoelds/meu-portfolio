@@ -1,0 +1,29 @@
+body::-webkit-scrollbar{
+    width: 8px;
+    background: transparent;
+}
+
+body::-webkit-scrollbar-button{
+    display: none;
+    background: #ffff;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #000;
+    border-radius: 20px;
+}
+
+#home{
+    background: #ffc107;
+    color: #ffff
+}
+
+.caixa{
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a{
+    margin: 5px 15px;
+    
+}
