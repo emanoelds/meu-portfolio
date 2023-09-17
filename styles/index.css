@@ -64,6 +64,25 @@
     border-radius: 0 25px 25px 0;
 }
 
+.contato{
+    padding: 0px 0 100px 0;
+}
+.btn{
+    padding: 10px 12px;
+    border-radius: 30px;
+    border: 1px solid #000000;
+}
+
+.whatsapp:hover{
+    background: #00ff00;
+    color: #ffffff;
+}
+
+.instagram:hover{
+    background: #fa68ff;
+    color: #ffffff;
+}
+
 .footer{
     display: flex;
     justify-content: center;
