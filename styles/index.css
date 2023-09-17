@@ -68,7 +68,8 @@
     padding: 0px 0 100px 0;
 }
 
-.btn{
+.btn2{
+    color: #000000;
     padding: 10px 12px;
     border-radius: 30px;
     border: 1px solid #000000;
@@ -77,11 +78,15 @@
 .whatsapp:hover{
     background: #00ff00;
     color: #ffffff;
+    padding: 10px 13px;
+    border: none;
 }
 
 .instagram:hover{
     background: #fa68ff;
     color: #ffffff;
+    padding: 10px 13px;
+    border: none;
 }
 
 .footer{
