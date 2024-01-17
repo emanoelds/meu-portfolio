@@ -13,8 +13,14 @@
 
 <body>
     <header class="bg-black">
-        <p class="text-light text-center p-2 fw-semibold">@2023</p>
+        <span class="d-flex justify-content-center text-light text-center p-2 fw-semibold">@2023</span>
     </header>
+
+    <div>
+        <video autoplay loop class="background-nav">
+            <source src="./img/background.mp4">
+        </video>
+    </div>
 
     <nav class="navbar navbar-expand-md ">
         <div class="container">
@@ -29,13 +35,13 @@
             <div class="collapse navbar-collapse" id="navMenu">
                 <ul class="navbar-nav ms-auto fw-semibold gap-3 d-flex align-items-center">
                     <li class="nav-item">
-                        <a class="btn btn-dark rounded-5" href="#sobremim">Sobre mim</a>
+                        <a class="btn btn-light rounded-5" href="#sobremim">Sobre mim</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-dark rounded-5" href="#projetos">Projetos</a>
+                        <a class="btn btn-light rounded-5" href="#projetos">Projetos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-dark rounded-5" href="#contato">Contato</a>
+                        <a class="btn btn-light rounded-5" href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -45,8 +51,8 @@
     <main class="container">
         <section class="d-flex flex-column textoPrinc">
             <div>
-                <h1 class="bg-black rounded-5 text-white text-center p-2">Olá, Eu sou Emanoel!</h1>
-                <p class="text-center lead fw-medium">
+                <h1 class="bg-black bg-opacity-50 rounded-5 text-white text-center p-2">Olá, Eu sou Emanoel!</h1>
+                <p class="text-center lead fw-medium text-warning">
                     Desenvolvedor Full Stack
                 </p>
             </div>
@@ -63,7 +69,7 @@
             </div>
         </section>
 
-        <section class="d-md-flex justify-content-around bg-black rounded-4 text-white p-4 p-md-5" id="sobremim">
+        <section class="d-md-flex justify-content-around bg-custom rounded-4 text-white p-4 p-md-5" id="sobremim">
             <div class="text-center">
                 <img class="rounded-circle" src="img/unicesumar.png" alt="EAD Unicesumar" width="240">
                 <h5 class="mt-1">Formando em Sistemas para Internet</h5>
@@ -116,11 +122,13 @@
                     </div>
                 </div>
 
-                <button class="carousel-control-prev button1" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <button class="carousel-control-prev button1" type="button" data-bs-target="#carouselId"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                     <span class="visually-hidden">Anterior</span>
                 </button>
-                <button class="carousel-control-next button2" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <button class="carousel-control-next button2" type="button" data-bs-target="#carouselId"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon"></span>
                     <span class="visually-hidden">Proximo</span>
                 </button>
@@ -136,7 +144,7 @@
                 <a class="btn2 whatsapp" href="https://api.whatsapp.com/send?phone=5515998414473">
                     <i class="fa fa-whatsapp fa-xl"></i>
                 </a>
-       
+
                 <a class="btn2 instagram" href="https://www.instagram.com/eds_code">
                     <i class="fa fa-instagram fa-xl"></i>
                 </a>
@@ -148,7 +156,7 @@
         <p>EAD - Sistemas para Internet - Unicesumar</p>
     </footer>
 
-    
+
     <script src="https://kit.fontawesome.com/408ad07b0a.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
